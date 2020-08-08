@@ -66,7 +66,7 @@ If you like my work and want to show some :heart:
 [<img height="30" src="paypal-donate.png" alt="PayPal"/>](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y79WNXRNJCHB4&source=url)
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Festatra%2Fkronicle.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Festatra%2Fkronicle?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Festatra%2Fkronicle.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Festatra%2Fkronicle?ref=badge_large)
 
 ---
 
