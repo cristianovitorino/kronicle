@@ -28,7 +28,7 @@ After finishing customizing the `kronicle-jobs` file you're ready to install. Af
 
 ## From the binary file
 ```bash
-https://github.com/estatra/kronicle/releases/download/v1.0.0/Kronicle.tar.xz
+wget https://github.com/estatra/kronicle/releases/download/v1.0.0/Kronicle.tar.xz
 tar -xf Kronicle.tar.xz
 cd Kronicle
 chmod u+x install
