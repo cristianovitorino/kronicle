@@ -32,7 +32,7 @@ wget https://github.com/estatra/kronicle/releases/download/v1.0.0/Kronicle.tar.x
 tar -xf Kronicle.tar.xz
 cd Kronicle
 chmod u+x install
-sh ./install.sh
+sh ./install
 ```
 
 ### From the repository
