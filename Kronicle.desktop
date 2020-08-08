@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Kronicle
+GenericName=Job Scheduler
+Exec=kronicle
+Icon=~/.icons/kronicle.png
+Type=Application
+Comment=Hourly job scheduling tool
+Categories=Schedulers

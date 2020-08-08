@@ -1,0 +1,12 @@
+[Unit]
+Description=Kronicle at boot time
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/kronicle
+
+[Install]
+WantedBy=multi-user.target
