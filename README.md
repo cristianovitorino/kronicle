@@ -27,6 +27,7 @@
 After finishing customizing the `kronicle-jobs` file you're ready to install. You can edit `kronicle-jobs` anytime at `/usr/local/bin/kronicle-jobs`.
 
 ```bash
+cd $HOME
 git clone https://github.com/estatra/kronicle.git
 cd kronicle
 chmod u+x install
