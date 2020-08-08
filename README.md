@@ -8,8 +8,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://www.codefactor.io/repository/github/estatra/kronicle">
-    <img src="https://www.codefactor.io/repository/github/estatra/figwrapper/badge" alt="CodeFactor">
+  <a href="https://www.codefactor.io/repository/github/estatra/kronicle/">
+    <img src="https://www.codefactor.io/repository/github/estatra/kronicle/badge" alt="CodeFactor">
   </a>
   <a href="https://www.codefactor.io/repository/github/estatra/kronicle">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/estatra/kronicle">
