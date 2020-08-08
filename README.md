@@ -21,7 +21,7 @@
 `Kronicle` is a simple hourly job scheduler for Linux.
 
 ## Key Feature
-- Custimize `kronicle-jobs` to do anything you want job-wise at an hourly base.
+- Custimize the `kronicle-jobs` file **before installing** to do anything you want job-wise at an hourly base.
 
 ## Install
 After finishing customizing the `kronicle-jobs` file you're ready to install. After installation you can edit `kronicle-jobs` anytime at `/usr/local/bin/kronicle-jobs`.
