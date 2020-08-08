@@ -2,4 +2,3 @@
 *.rs linguist-vendored=false
 *.toml linguist-vendored=false
 *.sh linguist-vendored=false
-*.json linguist-vendored=false
