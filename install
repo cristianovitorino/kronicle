@@ -59,13 +59,16 @@ fi
 echo "Copying files..."
 echo ""
 
+cd $HOME/kronicle
+
 cp -v kronicle.png $HOME/.icons/
 
 cp -v Kronicle.desktop $HOME/.local/share/applications/
 chmod --verbose -R 774 $HOME/.local/share/applications/Kronicle.desktop
 
 # Copy the main files
-sudo cp -v kronicle /usr/bin/
+sudo cp $HOME/kronicle/
+sudo cp -v $HOME/kronicle/target/debug/kronicle /usr/bin/
 sleep 1
 sudo chmod u+x /usr/bin/kronicle
 sudo chown $USER /usr/bin/kronicle
