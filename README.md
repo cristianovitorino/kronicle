@@ -32,7 +32,7 @@ wget https://github.com/estatra/kronicle/releases/download/v1.0.0/Kronicle.tar.x
 tar -xf Kronicle.tar.xz
 cd Kronicle
 chmod u+x install
-sh ./install
+sh ./install.sh
 ```
 
 ### From the repository
@@ -41,14 +41,14 @@ cd $HOME
 git clone https://github.com/estatra/kronicle.git
 cd kronicle
 chmod u+x install
-sh ./install
+sh ./install.sh
 ```
 
 ## Uninstall
 
 ```bash
 > chmod u+x uninstall
-> sh ./uninstall
+> sh ./uninstall.sh
 ```
 
 ## Copyright
