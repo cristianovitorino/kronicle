@@ -11,13 +11,6 @@
   <a href="https://www.codefactor.io/repository/github/estatra/kronicle/">
     <img src="https://www.codefactor.io/repository/github/estatra/kronicle/badge" alt="CodeFactor">
   </a>
-  <a href="https://www.codefactor.io/repository/github/estatra/kronicle">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/estatra/kronicle">
-  </a>
-<a href="https://app.fossa.io/projects/git%2Bgithub.com%estatra%2Fkronicle?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%estatra%2Fkronicle.svg?type=shield"/></a>
-  <a href="https://github.com/prettier/prettier">
-    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
-  </a>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y79WNXRNJCHB4&source=url">
     <img alt="PayPal" src="https://img.shields.io/badge/PayPal-Donate-brightgreen?style=flat-square">
   </a>
