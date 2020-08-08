@@ -2,6 +2,5 @@
 *.rs linguist-vendored=false
 *.toml linguist-vendored=false
 *.sh linguist-vendored=false
-*.d linguist-vendored=false
 *.json linguist-vendored=false
 *.cargo-lock linguist-vendored=false
