@@ -41,14 +41,14 @@ cd $HOME
 git clone https://github.com/estatra/kronicle.git
 cd kronicle
 chmod u+x install
-sh ./install
+sh ./install.sh
 ```
 
 ## Uninstall
 
 ```bash
 > chmod u+x uninstall
-> sh ./uninstall
+> sh ./uninstall.sh
 ```
 
 ## Copyright
