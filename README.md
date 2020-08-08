@@ -26,6 +26,16 @@
 ## Install
 After finishing customizing the `kronicle-jobs` file you're ready to install. You can edit `kronicle-jobs` anytime at `/usr/local/bin/kronicle-jobs`.
 
+## From the binary file
+```bash
+https://github.com/estatra/kronicle/releases/download/v1.0.0/Kronicle.tar.xz
+tar -xf Kronicle.tar.xz
+cd Kronicle
+chmod u+x install
+sh ./install
+```
+
+### From the repository
 ```bash
 cd $HOME
 git clone https://github.com/estatra/kronicle.git
