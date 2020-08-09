@@ -2,12 +2,11 @@
 
 echo ""
 echo "Thanks for using Kronicle!"
-echo ""
 sleep 1
 
 sudo pkill kronicle
 
-sudo rm -rf /usr/bin/kronicle
+sudo rm -rf /usr/local/bin/kronicle
 
 sleep 1
 
@@ -21,7 +20,10 @@ sleep 1
 
 sudo systemctl stop kronicle
 sleep 1
+echo ""
 sudo systemctl disable kronicle
+sleep 1
+echo ""
 sudo systemctl daemon-reload
 
 sudo rm -rf /lib/systemd/system/kronicle.service

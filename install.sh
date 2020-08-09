@@ -21,7 +21,6 @@ if [ -d "$DIR" ]; then
     echo ""
     sleep 1
     echo "Proceeding..."
-    echo ""
     sleep 1
 
 else
@@ -43,58 +42,70 @@ if [ -d "$DIR" ]; then
     echo ""
     sleep 1
     echo "Proceeding..."
-    echo ""
     sleep 1
 
 else
     echo "The '"$DIR"' directory doesn't exist on your filesystem."
     echo ""
     echo "Creating one..."
-    echo ""
     sleep 1
     mkdir $HOME/.local/share/applications
     sleep 1
 fi
 
-echo "Copying files..."
+sleep 1
+
+DIR="$HOME/.bin"
+if [ -d "$DIR" ]; then
+    echo ""
+    echo "The '"$DIR"' directory already exists on your filesystem."
+    echo ""
+    sleep 1
+    echo "Proceeding..."
+    sleep 1
+
+else
+    echo "The '"$DIR"' directory doesn't exist on your filesystem."
+    echo ""
+    echo "Creating one..."
+    sleep 1
+    mkdir $HOME/.bin
+    sleep 1
+fi
+
 echo ""
+echo "Copying files..."
 
 cd $HOME/kronicle
 
+# Copy the main userspace files
+echo ""
 cp -v kronicle.png $HOME/.icons/
-
+echo ""
 cp -v Kronicle.desktop $HOME/.local/share/applications/
-chmod --verbose -R 774 $HOME/.local/share/applications/Kronicle.desktop
+echo ""
 
-# Copy the main files
-sudo cp $HOME/kronicle/
-sudo cp -v $HOME/kronicle/target/debug/kronicle /usr/bin/
-sleep 1
-sudo chmod u+x /usr/bin/kronicle
-sudo chown $USER /usr/bin/kronicle
-sudo chgrp wheel /usr/bin/kronicle
-sudo chmod --verbose -R 774 /usr/bin/kronicle
-
+# Copy the main root files
+sudo cp -v $HOME/kronicle/target/debug/kronicle /usr/local/bin/
+echo ""
 sleep 1
 
-sudo cp -v kronicle-jobs /usr/local/bin/
+sudo chmod u+x --verbose /usr/local/bin/kronicle
+echo ""
 sleep 1
-sudo chmod u+x /usr/local/bin/kronicle-jobs
-sudo chown $USER /usr/local/bin/kronicle-jobs
-sudo chgrp wheel /usr/local/bin/kronicle-jobs
-sudo chmod --verbose -R 774 /usr/local/bin/kronicle-jobs
 
+sudo cp -v kronicle-jobs $HOME/.bin/
+echo ""
 sleep 1
 
 sudo cp -v kronicle.service /lib/systemd/system/
-sudo chown $USER /lib/systemd/system/kronicle.service
-sudo chgrp wheel /lib/systemd/system/kronicle.service
-sudo chmod --verbose -R 774 /lib/systemd/system/kronicle.service
-
+echo ""
 sleep 1
 
 echo "Enabling and start the Kronicle service..."
+echo ""
 sudo systemctl enable kronicle.service
+echo ""
 sleep 1
 sudo systemctl start kronicle.service
 

@@ -6,7 +6,9 @@ StartLimitIntervalSec=0
 Type=simple
 Restart=always
 RestartSec=1
-ExecStart=/usr/bin/kronicle
+User=
+Group=wheel
+ExecStart=/usr/local/bin/kronicle
 
 [Install]
 WantedBy=multi-user.target

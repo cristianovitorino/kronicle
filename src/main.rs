@@ -6,12 +6,13 @@ use std::time::Duration;
 fn main() {
     let mut agenda = JobScheduler::new();
 
-    agenda.add(Job::new("* 1/60 * * * *".parse().unwrap(), || {
+    agenda.add(Job::new("1/5 * * * * *".parse().unwrap(), || {
         Command::new("sh")
-            .arg("/usr/local/bin/kronicle-jobs")
+            .arg("-c")
+            .arg("$HOME/.bin/kronicle-jobs")
             .spawn()
             .expect("Fail!");
-        println!("File created!");
+        //println!("File created!");
     }));
 
     loop {
