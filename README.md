@@ -23,31 +23,34 @@
 ## Key Feature
 - Custimize the `kronicle-jobs` file **before installing** to do anything you want job-wise at an hourly base.
 
-## Install
-After finishing customizing the `kronicle-jobs` file you're ready to install. After installation you can edit `kronicle-jobs` anytime at `/usr/local/bin/kronicle-jobs`.
+## Requirements
+Edit the `kronicle.service` file **before installing** and add your username on the **User=** section, save the file and close it.
 
-## From the binary file
 ```bash
-wget https://github.com/estatra/kronicle/releases/download/v1.0.0/Kronicle.tar.xz
-tar -xf Kronicle.tar.xz
-cd Kronicle
-chmod u+x install
-sh ./install
+[...]
+RestartSec=1
+User=addyourusernamehere
+Group=wheel
+[...]
 ```
+
+## Install
+- After editing the `kronicle-jobs` and `kronicle.service` files you're ready to install.
+- After installation you can edit `~/.bin/kronicle-jobs` at anytime.
 
 ### From the repository
 ```bash
 cd $HOME
 git clone https://github.com/estatra/kronicle.git
 cd kronicle
-chmod u+x install
+chmod u+x install.sh
 sh ./install.sh
 ```
 
 ## Uninstall
 
 ```bash
-> chmod u+x uninstall
+> chmod u+x uninstall.sh
 > sh ./uninstall.sh
 ```
 
