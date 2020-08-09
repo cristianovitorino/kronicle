@@ -6,7 +6,7 @@ use std::time::Duration;
 fn main() {
     let mut agenda = JobScheduler::new();
 
-    agenda.add(Job::new("1/5 * * * * *".parse().unwrap(), || {
+    agenda.add(Job::new("* 1/240 * * * *".parse().unwrap(), || {
         Command::new("sh")
             .arg("-c")
             .arg("$HOME/.bin/kronicle-jobs")
