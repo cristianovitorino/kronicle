@@ -50,8 +50,8 @@ sh ./install.sh
 ## Uninstall
 
 ```bash
-> chmod u+x uninstall.sh
-> sh ./uninstall.sh
+chmod u+x uninstall.sh
+sh ./uninstall.sh
 ```
 
 ## Copyright
