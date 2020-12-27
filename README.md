@@ -66,17 +66,6 @@ The Kronicle logo is licensed under a <a rel="license" href="http://creativecomm
 <br/><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" /></a>
 </div>
 
----
-## Donation
-If you like my work and want to show some :heart:
-
-[<img height="30" src="paypal-donate.png" alt="PayPal"/>](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y79WNXRNJCHB4&source=url)
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Festatra%2Fkronicle.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Festatra%2Fkronicle?ref=badge_large)
-
----
-
 <h6 align="center">
-  Made with :heart: from :earth_americas:!
+  Made with :heart: from :brazil:!
 </h6>
