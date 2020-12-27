@@ -56,7 +56,7 @@ sh ./uninstall.sh
 
 ## Copyright
 
-Kronicle © 2020 Atra, MIT License
+Kronicle © 2020 Cristiano Vitorino, MIT License
 
 ---
 
