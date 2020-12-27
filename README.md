@@ -11,9 +11,6 @@
   <a href="https://www.codefactor.io/repository/github/estatra/kronicle/">
     <img src="https://www.codefactor.io/repository/github/estatra/kronicle/badge" alt="CodeFactor">
   </a>
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y79WNXRNJCHB4&source=url">
-    <img alt="PayPal" src="https://img.shields.io/badge/PayPal-Donate-brightgreen?style=flat-square">
-  </a>
 </p>
 
 ## About
