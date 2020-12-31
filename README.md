@@ -60,7 +60,3 @@ The Kronicle logo is licensed under a <a rel="license" href="http://creativecomm
 
 <br/><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" /></a>
 </div>
-
-<h6 align="center">
-  Made with :heart: from :brazil:!
-</h6>
