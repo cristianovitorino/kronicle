@@ -53,7 +53,7 @@ sh ./uninstall.sh
 
 ## Copyright
 
-Kronicle © 2020 Cristiano Vitorino, MIT License
+Kronicle © 2020 Cristiano Vitorino, BSD-3-Clause license 
 
 <div>
 The Kronicle logo is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
