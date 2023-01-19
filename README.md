@@ -26,7 +26,7 @@ Edit the `kronicle.service` file **before installing** and add your username on 
 ```bash
 [...]
 RestartSec=1
-User=addyourusernamehere
+User=<username>
 Group=wheel
 [...]
 ```
