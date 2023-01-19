@@ -7,12 +7,6 @@
     Kronicle
 </h1>
 
-<p align="center">
-  <a href="https://www.codefactor.io/repository/github/cristianovitorino/kronicle/">
-    <img src="https://www.codefactor.io/repository/github/cristianovitorino/kronicle/badge" alt="CodeFactor">
-  </a>
-</p>
-
 ## About
 
 `Kronicle` is a simple hourly job scheduler for Linux.
