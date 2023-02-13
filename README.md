@@ -9,7 +9,7 @@
 
 ## About
 
-`Kronicle` is a hourly job scheduler CLI application for Linux writen in Rust 🦀
+`Kronicle` is a simple hourly job scheduler CLI application for Linux writen in Rust 🦀
 
 ## Key Feature
 - Custimize the `kronicle-jobs` bash file to do anything you want job-wise at an hourly base.
